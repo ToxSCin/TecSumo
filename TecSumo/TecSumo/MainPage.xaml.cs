@@ -10,7 +10,7 @@ using TecSumo.Views;
 
 namespace TecSumo
 {
-    [Obsolete]
+    [DesignTimeVisible(false)]
     public partial class MainPage : MasterDetailPage
     {
         public MainPage()
