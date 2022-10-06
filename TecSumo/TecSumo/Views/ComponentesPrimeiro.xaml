@@ -12,7 +12,7 @@
         <ScrollView>
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-                <Button Text="Linguagem, Trabalho e Tecnologia" Clicked="Button_Clicked" Style="{ StaticResource botaoCinza }" />
+                <Button Text="Articular Conhecimento De Sistemas Computacionais" Clicked="Button_Clicked" Style="{ StaticResource botaoCinza }" />
                 <Button Text="Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{ StaticResource botaoCinza }" />
                 <Button Text="Banco de Dados I" Clicked="Button_Clicked_2" Style="{ StaticResource botaoCinza }" />
                 <Button Text="Análise e Projeto de Sistemas" Clicked="Button_Clicked_3" Style="{ StaticResource botaoCinza }" />

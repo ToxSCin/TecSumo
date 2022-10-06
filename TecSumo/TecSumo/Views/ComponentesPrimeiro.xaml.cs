@@ -23,9 +23,9 @@ namespace TecSumo.Views
             {
                 var c = new Componente
                 {
-                    Nome = "Linguagem, Trabalho e Tecnologia",
+                    Nome = "Articular, Melhorar Conhecimentos De Computação",
 
-                    AtribuicoesResponsabilidades = "Comunicar-se em língua portuguesa, utilizando o vocabulário técnico da área e elaborar registros e planilhas de acompanhamento e controle de atividades",
+                    AtribuicoesResponsabilidades = "• Otimiza a qualidade de interpretação de computação, • Como simples coisas como atalhos, ou dicas de programação",
                     ValoresAtitudes = "Incentivar o diálogo e a interlocução. • Responsabilizar-se pela produção, utilização e divulgação de informações. • Estimular a proatividade. ",
                 };
 
