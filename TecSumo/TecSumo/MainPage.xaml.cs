@@ -64,7 +64,7 @@ namespace TecSumo
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesTeceiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesTerceiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
