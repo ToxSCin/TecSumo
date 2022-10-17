@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TecSumo.Inicial"
-             BackgroundColor="#F3F2F0"
+             BackgroundColor="White"
              Title="App Guia do Curso de DS">
     <ContentPage.Content>
 
@@ -14,21 +14,26 @@
             <StackLayout Padding="10">
 
                 <Label Text="Olá! Este é o App para guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
-                   FontSize="Medium"
+                       TextColor="Black"    
+                   FontSize="Large"
                    Style="{ StaticResource textoCentralizado }" />
 
                 <Label Text="O curso tem três módulos e dura 3 anos. Pensamos em desenvolver este App para explicar o conteúdo"
-                   FontSize="Medium"
+                       TextColor="Black"
+                   FontSize="Large"
                    Style="{ StaticResource textoCentralizado }" />
 
                 <Label Text="Em breve este App estará disponível na Play Store para download."
-                   TextColor="#AB0209"
+                   TextColor="Green"
                    Style="{ StaticResource textoCentralizado }"/>
 
-                <Image Source="foto_segundo_modulo_2_sem_2019" />
-
-                <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e da Profa. Nídia Castelli"
+                <Label Text="Desenvolvimento sob a orientação do Prof. Tiago A. Silva e da Profa. Nídia Castelli"
+                       TextColor="Red"
                    Style="{ StaticResource textoCentralizado }" />
+                   
+
+                <Image Source="https://conteudo.bemminas.com.br/images/noticias/2020/02/5e5287a0a3cf7_20200223110936.jpeg" HeightRequest="300" />
+
 
 
 

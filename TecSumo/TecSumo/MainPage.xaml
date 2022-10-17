@@ -10,7 +10,7 @@
         <ContentPage Title="Menu">
             <Grid BackgroundColor="#3E474C">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="160" />
+                    <RowDefinition Height="200" />
                         <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
@@ -20,7 +20,10 @@
                                  Margin="10"
                              HorizontalOptions="FillAndExpand">
 
-                    <Image Source="logo_etec_fg" Aspect="AspectFit" />
+                    <Image Source="https://atividadesprofessores.com.br/wp-content/uploads/2021/05/etc1-768x430.jpg">
+
+
+                    </Image>
                 </StackLayout>
                 <StackLayout Grid.Row="1" 
                              Spacing="10"
