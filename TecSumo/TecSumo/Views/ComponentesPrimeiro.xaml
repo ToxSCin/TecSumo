@@ -12,14 +12,26 @@
         <ScrollView>
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-                <Button Text="Articular Conhecimento De Sistemas Computacionais" Clicked="Button_Clicked" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Banco de Dados I" Clicked="Button_Clicked_2" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Análise e Projeto de Sistemas" Clicked="Button_Clicked_3" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Design Digital" Clicked="Button_Clicked_4" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Programação Web I" Clicked="Button_Clicked_5" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Fundamentos da Informática" Clicked="Button_Clicked_6" Style="{ StaticResource botaoCinza }" />
-                <Button Text="Técnicas de Programação" Clicked="Button_Clicked_7" Style="{ StaticResource botaoCinza }" />
+                <Button Text="Articular Conhecimento De Sistemas Computacionais" Clicked="Button_Clicked" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Banco de Dados I" Clicked="Button_Clicked_2" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Análise e Projeto de Sistemas" Clicked="Button_Clicked_3" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Design Digital" Clicked="Button_Clicked_4" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Programação Web I" Clicked="Button_Clicked_5" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Fundamentos da Informática" Clicked="Button_Clicked_6" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Técnicas de Programação" Clicked="Button_Clicked_7" Style="{ StaticResource botaoVermelho }" />
+                <Button Text="Português" Clicked="Port_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Inglês" Clicked="ingles_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Geografia" Clicked="geo_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Matemática" Clicked="mat_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Biologia" Clicked="bio_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Química" Clicked="quimica_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="História" Clicked="hist_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Física" Clicked="fisica_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Filosofia" Clicked="filoso_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Sociologia" Clicked="socio_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Artes" Clicked="artes_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Educação Física" Clicked="educacao_clicked" Style="{StaticResource botaoVermelho}"/>
 
             </StackLayout>
         </ScrollView>
