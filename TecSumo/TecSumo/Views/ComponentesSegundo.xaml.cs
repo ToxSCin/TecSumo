@@ -133,24 +133,7 @@ namespace TecSumo.Views
             }
         }
 
-        private async void Button_Clicked_6(object sender, EventArgs e)
-        {
-            try
-            {
-                var c = new Componente
-                {
-                    Nome = "Planejamento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de Sistemas ",
-                    AtribuicoesResponsabilidades = "Planejar projetos de sistemas computacionais ",
-                    ValoresAtitudes = "Comunicar-se com a equipe com clareza e objetividade. • Organizar procedimentos de maneira diversa, visando melhor eficiência "
-                };
-
-                await Navigation.PushAsync(new VerComponente(c));
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Ops!", ex.Message, "OK");
-            }
-        } 
+        
 
         private void Button_Clicked_7(object sender, EventArgs e)
         {
